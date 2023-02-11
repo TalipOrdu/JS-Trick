@@ -6,8 +6,8 @@ console.log(answerYes);
 answerNo.addEventListener("mouseover",mouseHover);
 
 function mouseHover(){
-    const i = Math.floor(Math.random()*400) + 1; 
-    const j = Math.floor(Math.random()*400) + 1; 
+    const i = Math.floor(Math.random()*500) + 1; 
+    const j = Math.floor(Math.random()*500) + 1; 
     
     answerNo.style.left = i + "px";
     answerNo.style.top = j + "px";
