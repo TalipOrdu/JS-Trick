@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Calligraffitti',sans-serif;
+    height: 100vh;
+    background: linear-gradient(rgb(255,55,15),rgb(0,0,0));
+}
+.container{
+    width: 500px;
+    height: 420px;
+    background-color: #938d8d;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 70px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-size: 55px;
+    margin-top: 20px;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    border-radius: 20px;
+    
+    
+}
+.positive{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin-right: 50px;
+    border: 2px solid transparent;
+}
+.positive:hover{
+    background-color: #097b1e;
+    border: 2px solid #13d336;
+    transition: 200ms ease-in;
+
+}
+.negative{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    border: none;
+    margin-left: 100px;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    display: none;
+    margin: auto;
+    padding: 10px;
+}
+.container img{
+    margin-left: 50px;
+    width: 380px;
+    height: 300px;
+    
+}
